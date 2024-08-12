@@ -1,0 +1,11 @@
+POST http://localhost:8989/api/projects HTTP/1.1
+Content-Type: application/json
+
+{
+    "title":"pol fardis",
+    "description":"buiklding the bridge of fardis",
+    "content":"asfasdfasd"
+}
+
+###
+GET http://localhost:8989/api/projects?title=pol fardis
